@@ -12,6 +12,8 @@ public class StringConstants {
 	private final String MESSAGE_ERROR_INCORRECT = "Please insert a valid date!";
 	private final String MESSAGE_ERROR_DELETE = "Entry can't delete!";
 	private final String MESSAGE_ERROR_SAVE = "Can't save Entry!";
+	private final String MESSAGE_ERROR_DB_IS_BLOCKED = "Database not reachable. Close all applications, which are using the database.";
+	private final String MESSAGE_ENTRY_NOT_FOUND = "No matching entry found.";
 
 	private final String GHOST_TEXT_BIRTHDAY = "dd.mm.yyyy";
 	private final String GHOST_TEXT_CLASS = "Class";
@@ -295,5 +297,15 @@ public class StringConstants {
 	 */
 	public String[] getComboStringEducationalProgram() {
 		return comboStringEducationalProgram;
+	}
+
+
+	public String getMESSAGE_ERROR_DB_IS_BLOCKED() {
+		return MESSAGE_ERROR_DB_IS_BLOCKED;
+	}
+
+
+	public String getMESSAGE_ENTRY_NOT_FOUND() {
+		return MESSAGE_ENTRY_NOT_FOUND;
 	}
 }

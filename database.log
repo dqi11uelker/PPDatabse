@@ -1,0 +1,2 @@
+/*C3*/SET SCHEMA PUBLIC
+CREATE TABLE IF NOT EXISTS schueler ( nname VARCHAR(50), vname VARCHAR(20), sex VARCHAR(1), gebdat DATE, bgang VARCHAR(30), klasse VARCHAR(30), PRIMARY KEY (nname, vname) )
